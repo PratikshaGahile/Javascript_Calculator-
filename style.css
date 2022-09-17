@@ -1,0 +1,69 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1); 
+    color: #3c3d3a;
+    --border: solid;
+}
+
+h1{
+    text-align: center;
+    color: rgb(58, 6, 37);
+    font-family: 'itallic'; 
+    
+}
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    color:rgb(7, 18, 21);  
+    background-color: rgb(233, 103, 103);  
+    
+
+}  
+body 
+{
+    background-color: rgb(13, 228, 199); 
+    
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:rgb(83, 8, 20);
+    background-color: white;
+}
+
+.buttons > div {
+    border-top: 1px solid rgb(5, 21, 24);
+    border-right: 1px solid rgb(18, 15, 15);
+    border-left: 1px solid rgb(18, 15, 15);
+    border-bottom: 1px solid rgb(18, 15, 15);
+
+    border-radius: 50px;
+}
+
+.button {
+    border: 0.5px dashed #999;
+    line-height: 100px;
+    text-align: center ;
+    font-size: 25px;
+    cursor: pointer; 
+    height: 80%;
+    width:80% ;
+}
+
+#equal {
+    background-color: rgb(214, 7, 7);
+    color: white;
+}
+
+.button:hover {
+    background-color: #3c3d3a;
+    color: rgb(230, 225, 225);
+    transition: 0.5s ease-in-out;
+} 
